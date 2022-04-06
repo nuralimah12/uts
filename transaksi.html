@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Website UTS</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <h1>MAK E RESTAURANT</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="#">Transaksi</a></li>
+            <li><a href="formUpload.html">Tambah Foto</a></li>
+        </ul>
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <section class="form">
+        <div class="container">
+                <h2>Hitung Transaksi</h2>
+                <form action="prosesForm.php" method="post">
+                <table>
+                    <tr>
+                        <td>Nama Pembeli</td>
+                        <td>:</td>
+                        <td> <input type="text" name="nama_lengkap"></td>
+                    </tr>
+                    <tr>
+                        <td>Status Pembeli</td>
+                        <td>:</td>
+                        <td>
+                            <select name="sp">
+                                <option value="m">Member</option>
+                                <option value="nm">Non-member</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Menu</td>
+                        <td>:</td>
+                        <td>
+                            <select name="menu">
+                                <option value="p1">Paket 1</option>
+                                <option value="p2">Paket 2</option>
+                                <option value="p3">Paket 3</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jumlah</td>
+                        <td>:</td>
+                        <td> <input type="text" name="jumlah"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                        <button type="submit" name="hitung">Hitung</button>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+        </div>
+    </section>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <small>THANK YOU</small>
+        </div>
+    </footer>
+   
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    padding : 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color : inherit;
+}
+.container{
+    width : 80%;
+    margin : auto; 
+}
+
+header h1{
+    float : left;
+    padding : 15px 0px;
+    color :brown;   
+
+}
+
+header ul{
+    float : right;
+    
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    display: inline-block;
+    padding : 25px 20px;
+}
+
+header ul li a:hover{
+    background-color :brown;
+    color :#fff;
+}
+.active{
+    background-color :brown;
+    color :#fff;
+}
+
+.container{
+    padding : 5px;
+    color :rgb(202, 82, 82);
+}
+
+table td{
+    padding : 5px;   
+}
+
+
+
+button{
+    width : 50px;
+    height : 30px;
+    font-family: sans-serif;
+    color: black;
+    background-color: rgb(202, 82, 82);
+}
+footer{
+    padding : 30px 0;
+    background-color: rgb(202, 82, 82);
+    color : white;
+    text-align: center;
+
+}
+
